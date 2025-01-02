@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
+const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://backend-restaurant-booking-system.vercel.app/';
 export default function Home() {
   const [formData, setFormData] = useState({
     date: '',
